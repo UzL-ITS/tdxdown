@@ -44,7 +44,9 @@
 
 			<a href="#cite" class="btn">Cite the Paper</a>
 
+		{% if site.has_videos_link %}
 			<a href="#videos" class="btn">Videos</a>
+		{%endif %}
 
 		{% if site.has_slide_link %}
 			<a href="{{ site.slide_link }}" class="btn">Slides</a>

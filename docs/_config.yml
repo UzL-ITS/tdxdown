@@ -13,14 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: TDXdown
+title: Single-Stepping and Instruction Counting Attacks against Intel TDX
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Coming soon
+  TDXdown analyzes TDX's single-stepping countermeasure and exploits its vulnerabilities by recovering ECDSA long term secrects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: 
+
+repository: "UzL-ITS/tdxdown"
 
 # Build settings
 markdown: kramdown
@@ -32,9 +34,10 @@ plugins:
 
 
 #My Customizations
-has_logo: false
-paper_logo: test-logo-2.png
+has_logo: true
+paper_logo: assets/images/tdxdown.png
 
+has_videos_link: false
 has_paper_link: true
 #Just the name of the file
 paper_link: tdxdown_preprint.pdf
