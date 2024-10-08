@@ -24,8 +24,8 @@
     {% if site.deployment == "github" %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url |  prepend:  site.github.repository_name | prepend: "/"   }}">
     {% endif %}
-
 	 <title>{{ site.title }}</title>
+   <link rel="icon" type="image/png" href="{{site.paper_logo}}">
   </head>
   <body>
 
