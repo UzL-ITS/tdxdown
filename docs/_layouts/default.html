@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}" prefix="og: https://ogp.me/ns#">
   <head>
 
     {% if site.google_analytics %}
@@ -23,6 +23,7 @@
     {% endif %}
     {% if site.deployment == "github" %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url |  prepend:  site.github.repository_name | prepend: "/"   }}">
+    <meta property="og:image" content="https://uzl-its.github.io/tdxdown/assets/images/tdxdown.png" />
     {% endif %}
 
 	 <title>{{ site.title }}</title>
@@ -37,30 +38,25 @@
         <h1 class="project-name">{{ site.title }}</h1>
       {% endif %}
       <h2 class="project-tagline">{{ site.description }}</h2>
-		<div class="container">
-      {% if site.has_paper_link %}
-        <a href="{{ site.paper_link }}" class="btn">Read the Paper</a>
-      {% endif %}
-
-			<a href="#cite" class="btn">Cite the Paper</a>
-
-		{% if site.has_videos_link %}
-			<a href="#videos" class="btn">Videos</a>
-		{%endif %}
-
-		{% if site.has_slide_link %}
-			<a href="{{ site.slide_link }}" class="btn">Slides</a>
-		{%endif %}
-
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">Code</a>
-      {% endif %}
-		
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-		</div>
+      <div class="container">
+        {% if site.has_paper_link %}
+          <a href="{{ site.paper_link }}" class="btn">Read the Paper</a>
+        {% endif %}
+          <a href="#cite" class="btn">Cite the Paper</a>
+        {% if site.has_videos_link %}
+          <a href="#videos" class="btn">Videos</a>
+        {%endif %}
+        {% if site.has_slide_link %}
+          <a href="{{ site.slide_link }}" class="btn">Slides</a>
+        {%endif %}
+        {% if site.github.is_project_page %}
+          <a href="{{ site.github.repository_url }}" class="btn">Code</a>
+        {% endif %}
+        {% if site.show_downloads %}
+          <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+          <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+        {% endif %}
+      </div>
     </header>
 	
     <main id="content" class="main-content" role="main">

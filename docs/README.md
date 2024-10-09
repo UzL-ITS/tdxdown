@@ -66,15 +66,19 @@ This again emphasizes the need for thorough constant-time implementations.
 |--------------------------------------|---------------------------------------|
 |Leakage for secp160r1|Leakage for brainpoolp224r1|-->
 
-<div style="display: flex;">
+<div style="display: flex; flex-wrap: wrap; max-width: 1024px;">
+    <div style="flex-basis: 50%; min-width: 400px;">
     <figure>
-        <img src="assets/images/secp160r1.png" alt="Leakage for secp160r1" style="width: 100%;"/>
+        <img src="assets/images/secp160r1.png" alt="Leakage for secp160r1"/>
         <figcaption><center>Leakage for secp160r1</center></figcaption>
     </figure>
+    </div>
+    <div style="flex-basis: 50%; min-width: 400px;">
     <figure>
-        <img src="assets/images/brainpoolp224r1.png" alt="Leakage for brainpoolp224r1" style="width: 100%;"/>
+        <img src="assets/images/brainpoolp224r1.png" alt="Leakage for brainpoolp224r1"/>
         <figcaption><center>Leakage for brainpoolp224r1</center></figcaption>
     </figure>
+    </div>
 </div>
 
 
