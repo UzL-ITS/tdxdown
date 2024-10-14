@@ -106,7 +106,7 @@ We assume a system level attacker with local access, e.g. via SSH. The attacker 
 
 Examples for such an attacker are the cloud service provider itself, a state level agency (e.g. secret services) or well funded hackers which obtain system level access to machines that host TDs or other enclaves protected by a TEE.
 
-We disagree with the statement from the BSI (German Federal Office for Information Security) in an article on [heise.de](https://www.heise.de/news/Forscher-entdecken-Schwachstellen-in-Intels-Trust-Domain-Extensions-9974224.html), claiming that our attack would require physical access.
+Physical access is thus not required. We do not agree with the assessment made by the BSI expert mentioned in the [heise.de](https://www.heise.de/news/Forscher-entdecken-Schwachstellen-in-Intels-Trust-Domain-Extensions-9974224.html) article, which states the contrary.
 
 ## Are there countermeasures?
 
