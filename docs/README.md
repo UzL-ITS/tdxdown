@@ -118,7 +118,7 @@ OpenSSL and wolfSSL both addressed the reported issues in the ECDSA nonce genera
 
 ## I want to know more
 
-The work will be presented at the upcoming ACM Conference on Computer and Communications Security (CCS) 2024 on October 15 in Salt Lake City, Utah. Please join us for the presentation or find more details in the [paper](tdxdown_preprint.pdf).
+The work will be presented at the upcoming ACM Conference on Computer and Communications Security (CCS) 2024 on October 15 in Salt Lake City, Utah. Please join us for the presentation or find more details in the paper.
 
 ## Responsible Disclosure
 
