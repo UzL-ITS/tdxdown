@@ -62,10 +62,6 @@ Especially, for the secp160 curve (15 bit) and certain brainpool curves (up to 7
 This again emphasizes the need for thorough constant-time implementations.
 
 
-<!--| ![Leakage for secp160r1](https://int.its.uni-luebeck.de/md/uploads/81cf3d8f-9c6f-4578-91eb-347368f00c04.png) | ![Leakage for brainpoolp224r1](https://int.its.uni-luebeck.de/md/uploads/36868164-b57e-4441-9b54-fd74f35080d3.png) |
-|--------------------------------------|---------------------------------------|
-|Leakage for secp160r1|Leakage for brainpoolp224r1|-->
-
 <div style="display: flex; flex-wrap: wrap; max-width: 1024px;">
     <div style="flex-basis: 50%; min-width: 400px;">
     <figure>
@@ -122,7 +118,7 @@ OpenSSL and wolfSSL both addressed the reported issues in the ECDSA nonce genera
 
 ## I want to know more
 
-The work will be presented at the upcoming ACM Conference on Computer and Communications Security (CCS) 2024 on October 15 in Salt Lake City, Utah. Please join us for the presentation or find more details in the [paper](tdxdown_preprint.pdf).
+The work will be presented at the upcoming ACM Conference on Computer and Communications Security (CCS) 2024 on October 15 in Salt Lake City, Utah. Please join us for the presentation or find more details in the [paper](tdxdown/tdxdown_preprint.pdf).
 
 ## Responsible Disclosure
 
