@@ -104,6 +104,14 @@ For the former, only select cloud customers were provided with a TDX enabled ver
 
 As a consumer, you are only affected if you are currently renting a TDX protected VM in the cloud.
 
+# Which capabilities does the attacker require?
+
+We assume a system level attacker with local access, e.g. via SSH. The attacker has full systems privileges. Via the Intelligent Platform Management Interface (IPMI) the attacker has read and write access to the UEFI / BIOS. This is in line with the [TDX attacker model](https://cdrdv2-public.intel.com/690419/TDX-Whitepaper-February2022.pdf) and the default TEE threat model.
+
+Examples for such an attacker are the cloud service provider itself, a state level agency (e.g. secret services) or well funded hackers which obtain system level access to machines that host TDs or other enclaves protected by a TEE.
+
+We disagree with the statement from the BSI (German Federal Office for Information Security) in an article on [heise.de](https://www.heise.de/news/Forscher-entdecken-Schwachstellen-in-Intels-Trust-Domain-Extensions-9974224.html), claiming that our attack would require physical access.
+
 ## Are there countermeasures?
 
 Intel has developed a mitigation to the single-stepping attack that is part of the TDX module version 1.5.06.
