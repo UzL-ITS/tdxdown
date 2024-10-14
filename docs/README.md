@@ -104,7 +104,7 @@ For the former, only select cloud customers were provided with a TDX enabled ver
 
 As a consumer, you are only affected if you are currently renting a TDX protected VM in the cloud.
 
-# Which capabilities does the attacker require?
+## Which capabilities does the attacker require?
 
 We assume a system level attacker with local access, e.g. via SSH. The attacker has full systems privileges. Via the Intelligent Platform Management Interface (IPMI) the attacker has read and write access to the UEFI / BIOS. This is in line with the [TDX attacker model](https://cdrdv2-public.intel.com/690419/TDX-Whitepaper-February2022.pdf) and the default TEE threat model.
 
